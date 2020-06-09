@@ -12,10 +12,10 @@ function Room() {
   }
 
   return (
-    <div className={"room "+(isLit?"lit":"dark")}>
+    <div className={"room "+(isLit?"light":"dark")}>
     <br />
     <center>
-    <b>This Room is</b> {isLit? "Lit": "Dark"}
+    <b>This Room is</b> {isLit? "Light": "Dark"}
     <br/>
     <button onClick={updateLit} >Toggle Light</button>
     <br/>
