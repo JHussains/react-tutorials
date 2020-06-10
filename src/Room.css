@@ -2,12 +2,12 @@
  height: 100vh;
 }
 
-.lit {
-    background-color: white;
+.light {
+    background-color: #ffed83;
     color: black;
 }
 
 .dark {
     background-color: black;
-    color: white;
+    color: #ffed83;
 }
